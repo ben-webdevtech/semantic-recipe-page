@@ -68,14 +68,17 @@ table {
   width: 100%;
 }
 
-th, td {
-  border-bottom: 1px solid #000; /* Only bottom border */
+td {
+  border-bottom: 1px solid hsl(32, 34%, 41%); /* Only bottom border */
   padding: 8px;
 }
 
-th {
-  text-align: left;
+
+
+td:nth-child(2) {
+  font-weight: bold;
 }
+
 
 figcaption, caption {
     visibility: hidden;
